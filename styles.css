@@ -6,11 +6,25 @@ body {
 }
 
 a {
+    text-underline-offset: 2px;
+}
+
+footer a {
     color: white;
+}
+
+a#sectionLink {
+    position: relative;
+    top: 1.5rem;
+    background: #c5b4e3;
+    padding: .75rem;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 img {
     max-width: 75%;
+    border-radius: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,16 +34,25 @@ h1, h2, h3, h4, h5, h6 {
 header, footer{
     color: white;
     background: #4b2e83;
-    width: 100%;
     text-align: left;
     padding: 1rem;
 }
 
 section {
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: white;
 }
 
 section h2 {
     color: #4b2e83;
 }
+
+div.quote {
+    background-color: #b7a57a;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1rem;
+}   
